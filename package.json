@@ -1,8 +1,12 @@
 {
   "name": "ss-chs",
   "version": "0.0.1",
-  "description": "bla",
+  "description": "Let superscript support Simplified Chinese",
   "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dishuostec/ss-chs"
+  },
   "scripts": {
     "build": "babel src --out-dir lib --copy-files",
     "prepublish": "npm run build",
