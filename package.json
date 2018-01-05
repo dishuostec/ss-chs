@@ -1,6 +1,6 @@
 {
   "name": "ss-chs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Let superscript support Simplified Chinese",
   "main": "./lib/index.js",
   "repository": {
