@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "babel src --out-dir lib --copy-files",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "test": "mocha --compilers js:babel-register test -R spec -t 30000"
   },
   "author": "dishuostec",
